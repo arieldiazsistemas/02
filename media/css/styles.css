@@ -6,5 +6,28 @@
 	 **********************************************/
 
 body {
-    background-image: url("/media/img/back.jpg");
+    background-image: url("../img/back.jpg");
+    background-position: center;
+    background-size: auto;
+}
+
+form {
+    max-width: 50em;
+}
+input{
+    padding: auto;
+    margin: auto;
+}
+
+section {
+    
+    border: 5em;
+    min-height: 80%;
+    height: 20em;
+}
+
+.big-num {
+    text-align: center;
+    color:black;
+    font-size: 2000%;
 }
